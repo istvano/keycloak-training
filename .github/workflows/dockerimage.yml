@@ -1,8 +1,9 @@
 name: Docker Image CI
 
 on:
-  release:
-    types: [published]    
+  push:
+    tags:
+    - '*'   
 
 jobs:
 
@@ -22,3 +23,4 @@ jobs:
           repository: urbanandco/keycloak-training
           tag_with_ref: true
           push: ${{ startsWith(github.ref, 'refs/tags/') }}      
+      
