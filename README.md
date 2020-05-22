@@ -1,6 +1,6 @@
 # Dokcer images for keycloak quickstarts
 
-Version: 9.0.3
+Version: 10.0.1
 > Please note: These are not production ready images. Never use them in production
 
 ## Prerequisites
