@@ -1,5 +1,11 @@
 # Created by https://www.gitignore.io/api/windows,linux,osx,vim,emacs,visualstudiocode,intellij,eclipse,vagrant,ansible
 
+# docz
+.docz/
+node_modules
+.env
+npm-debug.log
+
 ### Windows ###
 # Windows image file caches
 Thumbs.db
